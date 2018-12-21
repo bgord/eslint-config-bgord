@@ -293,7 +293,7 @@ module.exports = {
 		'react/no-this-in-sfc': 2,
 		'react/no-unescaped-entities': 0,
 		'react/no-unknown-property': 2,
-		'react/no-unsafe': 1,
+		// 'react/no-unsafe': 1,
 		'react/no-unused-prop-types': 2,
 		'react/no-unused-state': 2,
 		'react/no-will-update-set-state': 2,
