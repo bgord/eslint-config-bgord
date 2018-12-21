@@ -268,7 +268,7 @@ module.exports = {
 		'react/default-props-match-prop-types': 2,
 		'react/destructuring-assignment': 0,
 		'react/display-name': 0,
-		'react/forbid-component-props': [],
+		// 'react/forbid-component-props': [],
 		'react/forbid-dom-props': 0,
 		'react/forbid-elements': 0,
 		'react/forbid-prop-types': ['error', { forbid: ['object'] }],
