@@ -274,6 +274,7 @@ module.exports = {
 		'react/forbid-prop-types': ['error', { forbid: ['object'] }],
 		'react/forbid-foreign-prop-types': 2,
 		'react/jsx-uses-react': 2,
+		'react/jsx-uses-vars': 2,
 		'react/no-access-state-in-setstate': 2,
 		'react/no-array-index-key': 2,
 		'react/no-children-prop': 2,
