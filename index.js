@@ -7,7 +7,8 @@ module.exports = {
 		},
 		ecmaVersion: 2018,
 	},
-	plugins: ['react', 'sonarjs'],
+	plugins: ['react', 'sonarjs', 'jsx-a11y', 'ramda', 'jest'],
+	extends: ['plugin:jsx-a11y/recommended', 'plugin:ramda/recommended', 'plugin:jest/recommended'],
 	rules: {
 		'for-direction': 0,
 		'getter-return': 2,
