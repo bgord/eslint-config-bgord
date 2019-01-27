@@ -1,5 +1,5 @@
 module.exports = {
-	extends: ['prettier'],
+	parser: '@typescript-eslint/parser',
 	parserOptions: {
 		sourceType: 'module',
 		ecmaFeatures: {
@@ -7,8 +7,14 @@ module.exports = {
 		},
 		ecmaVersion: 2018,
 	},
-	plugins: ['react', 'sonarjs', 'jsx-a11y', 'ramda', 'jest'],
-	extends: ['plugin:jsx-a11y/recommended', 'plugin:ramda/recommended', 'plugin:jest/recommended'],
+	plugins: ['react', 'sonarjs', 'jsx-a11y', 'ramda', 'jest', '@typescript-eslint'],
+	extends: [
+		'plugin:jsx-a11y/recommended',
+		'plugin:ramda/recommended',
+		'plugin:jest/recommended',
+		'prettier',
+		'plugin:@typescript-eslint/recommended',
+	],
 	rules: {
 		'for-direction': 0,
 		'getter-return': 2,
@@ -368,6 +374,8 @@ module.exports = {
 		// 'import/no-anonymous-default-export': 2,
 		// 'import/group-exports': 2,
 		// 'import/dynamic-import-chunkname': 2,
+		'@typescript-eslint/no-unused-vars': 2,
+		'@typescript-eslint/indent': 0,
 	},
 	env: {
 		browser: true,
