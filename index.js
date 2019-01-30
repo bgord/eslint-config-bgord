@@ -7,7 +7,7 @@ module.exports = {
 		},
 		ecmaVersion: 2018,
 	},
-	plugins: ['react', 'sonarjs', 'jsx-a11y', 'ramda', 'jest', '@typescript-eslint'],
+	plugins: ['react', 'sonarjs', 'jsx-a11y', 'ramda', 'jest', '@typescript-eslint', 'react-hooks'],
 	extends: [
 		'plugin:jsx-a11y/recommended',
 		'plugin:ramda/recommended',
@@ -376,6 +376,7 @@ module.exports = {
 		// 'import/dynamic-import-chunkname': 2,
 		'@typescript-eslint/no-unused-vars': 2,
 		'@typescript-eslint/indent': 0,
+		'react-hooks/rules-of-hooks': 'error',
 	},
 	env: {
 		browser: true,
