@@ -278,7 +278,7 @@ module.exports = {
 		// 'react/forbid-component-props': [],
 		'react/forbid-dom-props': 0,
 		'react/forbid-elements': 0,
-    'react/forbid-prop-types': 0;
+		'react/forbid-prop-types': 0,
 		'react/forbid-foreign-prop-types': 0,
 		'react/jsx-uses-react': 2,
 		'react/jsx-uses-vars': 2,
