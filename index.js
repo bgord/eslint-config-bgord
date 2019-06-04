@@ -387,4 +387,9 @@ module.exports = {
 		node: true,
 		jest: true,
 	},
+	settings: {
+		react: {
+			version: 'detect',
+		},
+	},
 };
