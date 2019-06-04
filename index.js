@@ -320,7 +320,7 @@ module.exports = {
 		'react/void-dom-elements-no-children': 2,
 		'sonarjs/no-all-duplicated-branches': 2,
 		'sonarjs/no-element-overwrite': 2,
-		'sonarjs/no-extra-arguments': 1,
+		'sonarjs/no-extra-arguments': 0,
 		'sonarjs/no-identical-conditions': 2,
 		'sonarjs/no-identical-expressions': 2,
 		'sonarjs/no-one-iteration-loop': 2,
@@ -379,7 +379,7 @@ module.exports = {
 		'react-hooks/rules-of-hooks': 2,
 		'react-hooks/exhaustive-deps': 2,
 		'@typescript-eslint/interface-name-prefix': 0,
-		'@typescript-eslint/explicit-function-return-type': 1,
+		'@typescript-eslint/explicit-function-return-type': 0,
 	},
 	env: {
 		browser: true,
