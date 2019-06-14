@@ -380,7 +380,7 @@ module.exports = {
 		'@typescript-eslint/explicit-function-return-type': 0,
 		'@typescript-eslint/no-use-before-define': 0,
 		'react-hooks/rules-of-hooks': 2,
-		'react-hooks/exhaustive-deps': 2,
+		'react-hooks/exhaustive-deps': 1,
 	},
 	env: {
 		browser: true,
