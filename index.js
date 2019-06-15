@@ -153,7 +153,7 @@ module.exports = {
 		'array-element-newline': 0,
 		'block-spacing': 0,
 		'brace-style': 0,
-		camelcase: 2,
+		camelcase: 0,
 		'capitalized-comments': 0,
 		'comma-dangle': 0,
 		'comma-spacing': 0,
