@@ -390,6 +390,9 @@ module.exports = {
 		node: true,
 		jest: true,
 	},
+	globals: {
+		use: 'readonly',
+	},
 	settings: {
 		react: {
 			version: 'detect',
