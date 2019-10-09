@@ -134,7 +134,7 @@ module.exports = {
 		'no-shadow-restricted-names': 2,
 		'no-undef': 0,
 		'no-undef-init': 0,
-		'no-undefined': 2,
+		'no-undefined': 0,
 		'no-unused-vars': [2, { args: 'none' }],
 		'no-use-before-define': 0,
 		'callback-return': 0,
