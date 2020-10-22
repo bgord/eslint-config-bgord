@@ -7,7 +7,7 @@ module.exports = {
 		},
 		ecmaVersion: 2018,
 	},
-	plugins: ['react', 'sonarjs', 'jsx-a11y', 'ramda', 'jest', '@typescript-eslint', 'react-hooks'],
+	plugins: ['react', 'sonarjs', 'jsx-a11y', '@typescript-eslint', 'react-hooks'],
 	extends: ['plugin:jsx-a11y/recommended', 'prettier', 'plugin:@typescript-eslint/recommended'],
 	rules: {
 		'for-direction': 0,
