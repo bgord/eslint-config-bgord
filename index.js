@@ -398,6 +398,14 @@ module.exports = {
 		'jsx-a11y/no-onchange': 1,
 		'no-bitwise': 0,
 		'sonarjs/cognitive-complexity': 0,
+		'@typescript-eslint/ban-types': [
+			'error',
+			{
+				types: {
+					'React.FC': { message: 'Type the component as a regular function.' },
+				},
+			},
+		],
 	},
 	env: {
 		browser: true,
