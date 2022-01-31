@@ -295,7 +295,7 @@ module.exports = {
 		'react/no-string-refs': 2,
 		'react/no-this-in-sfc': 2,
 		'react/no-unescaped-entities': 0,
-		'react/no-unknown-property': [1, { ignore: 'class' }],
+		'react/no-unknown-property': 0,
 		// 'react/no-unsafe': 1,
 		'react/no-unused-prop-types': 0,
 		'react/no-unused-state': 2,
