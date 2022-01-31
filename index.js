@@ -385,7 +385,7 @@ module.exports = {
 		'no-bitwise': 0,
 		'sonarjs/cognitive-complexity': 0,
 		'jsx-a11y/label-has-associated-control': 1,
-		'@typescript-eslint/ban-ts-comment': 1
+		'@typescript-eslint/ban-ts-comment': 1,
 	},
 	env: {
 		browser: true,
