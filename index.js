@@ -7,14 +7,8 @@ module.exports = {
 		},
 		ecmaVersion: 2018,
 	},
-	plugins: ['react', 'sonarjs', 'jsx-a11y', 'ramda', 'jest', '@typescript-eslint', 'react-hooks'],
-	extends: [
-		'plugin:jsx-a11y/recommended',
-		'plugin:ramda/recommended',
-		'plugin:jest/recommended',
-		'prettier',
-		'plugin:@typescript-eslint/recommended',
-	],
+	plugins: ['react', 'sonarjs', 'jsx-a11y', '@typescript-eslint', 'react-hooks'],
+	extends: ['plugin:jsx-a11y/recommended', 'prettier', 'plugin:@typescript-eslint/recommended'],
 	rules: {
 		'for-direction': 0,
 		'getter-return': 2,
@@ -383,7 +377,6 @@ module.exports = {
 		'@typescript-eslint/no-var-requires': 0,
 		'react-hooks/rules-of-hooks': 2,
 		'react-hooks/exhaustive-deps': 1,
-		'ramda/prefer-ramda-boolean': 0,
 		'sonarjs/no-duplicate-string': 0,
 		'@typescript-eslint/no-empty-function': 0,
 		'sonarjs/no-identical-functions': 1,
@@ -397,7 +390,6 @@ module.exports = {
 		browser: true,
 		es6: true,
 		node: true,
-		jest: true,
 	},
 	globals: {
 		use: 'readonly',
