@@ -7,7 +7,7 @@ module.exports = {
 		},
 		ecmaVersion: 2018,
 	},
-	plugins: ['react', 'sonarjs', 'jsx-a11y', '@typescript-eslint', 'react-hooks'],
+	plugins: ['react', 'sonarjs', 'jsx-a11y', '@typescript-eslint', 'react-hooks', 'no-only-tests'],
 	extends: ['plugin:jsx-a11y/recommended', 'prettier', 'plugin:@typescript-eslint/recommended'],
 	rules: {
 		'for-direction': 0,
@@ -386,6 +386,7 @@ module.exports = {
 		'sonarjs/cognitive-complexity': 0,
 		'jsx-a11y/label-has-associated-control': 1,
 		'@typescript-eslint/ban-ts-comment': 1,
+		'no-only-tests/no-only-tests': 1,
 	},
 	env: {
 		browser: true,
