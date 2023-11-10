@@ -387,6 +387,7 @@ module.exports = {
 		'jsx-a11y/label-has-associated-control': 1,
 		'@typescript-eslint/ban-ts-comment': 1,
 		'no-only-tests/no-only-tests': 1,
+		"no-constant-binary-expression": 1
 	},
 	env: {
 		browser: true,
