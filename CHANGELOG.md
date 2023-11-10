@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.4.1](https://github.com/bgord/eslint-config-bgord/compare/v3.4.0...v3.4.1) (2023-11-10)
+
 ## [3.4.0](https://github.com/bgord/eslint-config-bgord/compare/v3.3.2...v3.4.0) (2023-10-12)
 
 
