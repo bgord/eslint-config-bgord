@@ -393,6 +393,7 @@ module.exports = {
 		'@typescript-eslint/ban-ts-comment': 1,
 		'no-only-tests/no-only-tests': 1,
 		'no-constant-binary-expression': 1,
+		'security/detect-non-literal-fs-filename': 0,
 	},
 	env: {
 		browser: true,
