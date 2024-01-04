@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.5.1](https://github.com/bgord/eslint-config-bgord/compare/v3.5.0...v3.5.1) (2024-01-04)
+
+
+### Bug Fixes
+
+* use fixed security plugin version ([00676c2](https://github.com/bgord/eslint-config-bgord/commit/00676c26c9c7f956fc4e6fd41f769b42680fbd4c))
+
 ## [3.5.0](https://github.com/bgord/eslint-config-bgord/compare/v3.4.1...v3.5.0) (2024-01-04)
 
 ### [3.4.1](https://github.com/bgord/eslint-config-bgord/compare/v3.4.0...v3.4.1) (2023-11-10)
