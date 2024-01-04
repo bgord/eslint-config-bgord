@@ -8,7 +8,12 @@ module.exports = {
 		ecmaVersion: 2018,
 	},
 	plugins: ['react', 'sonarjs', 'jsx-a11y', '@typescript-eslint', 'react-hooks', 'no-only-tests'],
-	extends: ['plugin:jsx-a11y/recommended', 'prettier', 'plugin:@typescript-eslint/recommended'],
+	extends: [
+		'plugin:jsx-a11y/recommended',
+		'prettier',
+		'plugin:@typescript-eslint/recommended',
+		'plugin:security/recommended-legacy',
+	],
 	rules: {
 		'for-direction': 0,
 		'getter-return': 2,
@@ -387,7 +392,7 @@ module.exports = {
 		'jsx-a11y/label-has-associated-control': 1,
 		'@typescript-eslint/ban-ts-comment': 1,
 		'no-only-tests/no-only-tests': 1,
-		"no-constant-binary-expression": 1
+		'no-constant-binary-expression': 1,
 	},
 	env: {
 		browser: true,
