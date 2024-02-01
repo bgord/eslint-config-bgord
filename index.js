@@ -394,6 +394,7 @@ module.exports = {
 		'no-only-tests/no-only-tests': 1,
 		'no-constant-binary-expression': 1,
 		'security/detect-non-literal-fs-filename': 0,
+		'@typescript-eslint/no-namespace': 0,
 	},
 	env: {
 		browser: true,
